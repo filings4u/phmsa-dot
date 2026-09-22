@@ -18,3 +18,8 @@ Enterprise includes `white_label`; lower tiers do not. Customer/employee/driver 
 Turnstile site key: `0x4AAAAAAE4-F43E-viFsKat`. Cloudflare hostname management must include `phmsa-dot.screenings4u.com`.
 
 Supabase Auth redirect allowlist should include `https://phmsa-dot.screenings4u.com/auth-handoff.html`.
+
+
+## Portal management update
+
+The PHMSA management portal exposes Programs, Pools, and Random Selections as separate management pages. Agency access is intended for a direct screenings4u agency subscription; C/TPA-sponsored customer access remains on the C/TPA/Employer customer portal path.
